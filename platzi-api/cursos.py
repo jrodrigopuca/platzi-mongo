@@ -21,7 +21,7 @@ def cursos_func():
     elif curso_id is not None:
         # Obtener curso por id
         result = db.consultar_curso_por_id(curso_id)
-        return jsonify({"clase": json.loads(result)})
+        return jsonify({"curso": json.loads(result)})
 
 
 @bp.route('/porNombre', methods=['POST'])

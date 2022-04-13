@@ -23,7 +23,7 @@ def carreras_func():
         return jsonify({'borrados': db.borrar_carrera_por_id(carrera_id)})
     elif carrera_id is not None:
         # Obtener carreras por _id
-        result = db.consultar_carrera_por_id(carrera_id)
+        result = db.consultar_carrera_por_id(str(carrera_id))
         return jsonify({'carrera': json.loads(result)})
     else:
         # Obtener carreras

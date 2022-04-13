@@ -1,0 +1,15 @@
+{
+    "_id": "31232b039090",
+    "nombre": "Carrera en Python",
+    "descripcion": "desde cero ...",
+    "cursos": [
+        {
+            "_id":"3123902",
+            "nombre":"Curso de Instalación"
+        },
+        {
+            "_id":"3123902",
+            "nombre":"Intro a Python 3"
+        }
+    ]
+}

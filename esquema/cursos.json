@@ -1,0 +1,25 @@
+{
+    "_id":"3123902",
+    "nombre":"Curso de Instalación",
+    "descripcion": "preparar entorno",
+    "clases": [
+        {
+            "_id":"4234234",
+            "orden":1,
+            "nombre":"Instalar en Windows",
+            "videos": ["url_1", "url_2"]
+        },
+        {
+            "_id":"4234235",
+            "orden":1,
+            "nombre":"Instalar en MacOS",
+            "videos": ["url_3", "url_4"]
+        },
+        {
+            "_id":"4234236",
+            "orden":1,
+            "nombre":"Instalar en GNU/Linux",
+            "videos": ["url_5", "url_6"]
+        }
+    ]
+}

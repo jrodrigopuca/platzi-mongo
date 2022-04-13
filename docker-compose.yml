@@ -9,3 +9,5 @@ services:
       - FLASK_APP=platzi-api
       - FLASK_ENV=dev
       - PLATZI_DB_URI=mongodb+srv://${DB_USER}:${DB_PASS}@${DB_SERVER}
+    volumes:
+      - "./platzi-api:/app/platzi-api"
